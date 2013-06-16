@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D1001E16EC579A0005A1A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D1001D16EC579A0005A1A9 /* UIKit.framework */; };
+		03D1002016EC579A0005A1A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D1001F16EC579A0005A1A9 /* Foundation.framework */; };
+		03D1002216EC579A0005A1A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D1002116EC579A0005A1A9 /* CoreGraphics.framework */; };
+		03D1002816EC579A0005A1A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03D1002616EC579A0005A1A9 /* InfoPlist.strings */; };
+		03D1002A16EC579A0005A1A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D1002916EC579A0005A1A9 /* main.m */; };
+		03D1002E16EC579A0005A1A9 /* QSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D1002D16EC579A0005A1A9 /* QSAppDelegate.m */; };
+		03D1003016EC579A0005A1A9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D1002F16EC579A0005A1A9 /* Default.png */; };
+		03D1003216EC579A0005A1A9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D1003116EC579A0005A1A9 /* Default@2x.png */; };
+		03D1003416EC579A0005A1A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D1003316EC579A0005A1A9 /* Default-568h@2x.png */; };
+		03D1006016EC63620005A1A9 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D1005F16EC63620005A1A9 /* WindowsAzureMobileServices.framework */; };
+		03D1006516ED41D20005A1A9 /* connected57.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D1006116ED41D20005A1A9 /* connected57.png */; };
+		03D1006616ED41D20005A1A9 /* connected72.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D1006216ED41D20005A1A9 /* connected72.png */; };
+		03D1006716ED41D20005A1A9 /* connected114.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D1006316ED41D20005A1A9 /* connected114.png */; };
+		03D1006816ED41D20005A1A9 /* connected144.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D1006416ED41D20005A1A9 /* connected144.png */; };
+		0A9F3C99176E16BE00183063 /* QSVolunteerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F3C97176E16BE00183063 /* QSVolunteerListViewController.m */; };
+		0A9F3C9A176E16BE00183063 /* QSVolunteerListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3C98176E16BE00183063 /* QSVolunteerListViewController.xib */; };
+		0A9F3C9C176E183D00183063 /* QSVolunteerListViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3C9B176E183D00183063 /* QSVolunteerListViewController~iphone.xib */; };
+		0A9F3C9F176E1DE900183063 /* TWBUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F3C9E176E1DE900183063 /* TWBUIFactory.m */; };
+		0A9F3CA4176E1E4300183063 /* blackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CA0176E1E4200183063 /* blackButton.png */; };
+		0A9F3CA5176E1E4300183063 /* blackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CA1176E1E4200183063 /* blackButton@2x.png */; };
+		0A9F3CA6176E1E4300183063 /* blackButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CA2176E1E4200183063 /* blackButtonHighlight.png */; };
+		0A9F3CA7176E1E4300183063 /* blackButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CA3176E1E4200183063 /* blackButtonHighlight@2x.png */; };
+		0A9F3CAE176E1E6500183063 /* greyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CA9176E1E6500183063 /* greyButton.png */; };
+		0A9F3CAF176E1E6500183063 /* greyButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CAA176E1E6500183063 /* greyButton@2x.png */; };
+		0A9F3CB0176E1E6500183063 /* greyButton@2xpng in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CAB176E1E6500183063 /* greyButton@2xpng */; };
+		0A9F3CB1176E1E6500183063 /* greyButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CAC176E1E6500183063 /* greyButtonHighlight.png */; };
+		0A9F3CB2176E1E6500183063 /* greyButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CAD176E1E6500183063 /* greyButtonHighlight@2x.png */; };
+		0A9F3CB5176E1E7900183063 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F3CB4176E1E7900183063 /* MBProgressHUD.m */; };
+		0A9F3CB9176E1EB100183063 /* twilio.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CB7176E1EB100183063 /* twilio.png */; };
+		0A9F3CBA176E1EB100183063 /* twilio@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CB8176E1EB100183063 /* twilio@2x.png */; };
+		0A9F3CBF176E1EBE00183063 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CBB176E1EBE00183063 /* whiteButton.png */; };
+		0A9F3CC0176E1EBE00183063 /* whiteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CBC176E1EBE00183063 /* whiteButton@2x.png */; };
+		0A9F3CC1176E1EBE00183063 /* whiteButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CBD176E1EBE00183063 /* whiteButtonHighlight.png */; };
+		0A9F3CC2176E1EBE00183063 /* whiteButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CBE176E1EBE00183063 /* whiteButtonHighlight@2x.png */; };
+		0A9F3CC6176E250D00183063 /* QSVolunteerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F3CC5176E250D00183063 /* QSVolunteerService.m */; };
+		0A9F3CCC176E444900183063 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F3CC9176E444900183063 /* libcrypto.a */; };
+		0A9F3CCD176E444900183063 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F3CCA176E444900183063 /* libssl.a */; };
+		0A9F3CCE176E444900183063 /* libTwilioClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F3CCB176E444900183063 /* libTwilioClient.a */; };
+		0A9F3CD8176E5D0500183063 /* QSCallVolunteerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F3CD6176E5D0400183063 /* QSCallVolunteerViewController.m */; };
+		0A9F3CD9176E5D0500183063 /* QSCallVolunteerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CD7176E5D0500183063 /* QSCallVolunteerViewController.xib */; };
+		0A9F3CDE176E5F7000183063 /* orangeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CDA176E5F7000183063 /* orangeButton.png */; };
+		0A9F3CDF176E5F7000183063 /* orangeButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CDB176E5F7000183063 /* orangeButton@2x.png */; };
+		0A9F3CE0176E5F7000183063 /* orangeButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CDC176E5F7000183063 /* orangeButtonHighlight.png */; };
+		0A9F3CE1176E5F7000183063 /* orangeButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9F3CDD176E5F7000183063 /* orangeButtonHighlight@2x.png */; };
+		0A9F3CE3176E6F5F00183063 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F3CE2176E6F5F00183063 /* AudioToolbox.framework */; };
+		0A9F3CE5176E6F6700183063 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F3CE4176E6F6700183063 /* AVFoundation.framework */; };
+		0A9F3CE7176E6F7400183063 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F3CE6176E6F7400183063 /* CFNetwork.framework */; };
+		0A9F3CE9176E6F7C00183063 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F3CE8176E6F7C00183063 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03D1001A16EC579A0005A1A9 /* volunteers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = volunteers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D1001D16EC579A0005A1A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03D1001F16EC579A0005A1A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03D1002116EC579A0005A1A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03D1002516EC579A0005A1A9 /* volunteers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "volunteers-Info.plist"; sourceTree = "<group>"; };
+		03D1002716EC579A0005A1A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03D1002916EC579A0005A1A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03D1002B16EC579A0005A1A9 /* volunteers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "volunteers-Prefix.pch"; sourceTree = "<group>"; };
+		03D1002C16EC579A0005A1A9 /* QSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QSAppDelegate.h; path = volunteers/QSAppDelegate.h; sourceTree = "<group>"; };
+		03D1002D16EC579A0005A1A9 /* QSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QSAppDelegate.m; path = volunteers/QSAppDelegate.m; sourceTree = "<group>"; };
+		03D1002F16EC579A0005A1A9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		03D1003116EC579A0005A1A9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		03D1003316EC579A0005A1A9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		03D1005F16EC63620005A1A9 /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
+		03D1006116ED41D20005A1A9 /* connected57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connected57.png; sourceTree = "<group>"; };
+		03D1006216ED41D20005A1A9 /* connected72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connected72.png; sourceTree = "<group>"; };
+		03D1006316ED41D20005A1A9 /* connected114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connected114.png; sourceTree = "<group>"; };
+		03D1006416ED41D20005A1A9 /* connected144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connected144.png; sourceTree = "<group>"; };
+		0A9F3C96176E16BE00183063 /* QSVolunteerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSVolunteerListViewController.h; sourceTree = "<group>"; };
+		0A9F3C97176E16BE00183063 /* QSVolunteerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSVolunteerListViewController.m; sourceTree = "<group>"; };
+		0A9F3C98176E16BE00183063 /* QSVolunteerListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QSVolunteerListViewController.xib; sourceTree = "<group>"; };
+		0A9F3C9B176E183D00183063 /* QSVolunteerListViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "QSVolunteerListViewController~iphone.xib"; sourceTree = "<group>"; };
+		0A9F3C9D176E1DE900183063 /* TWBUIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWBUIFactory.h; sourceTree = "<group>"; };
+		0A9F3C9E176E1DE900183063 /* TWBUIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWBUIFactory.m; sourceTree = "<group>"; };
+		0A9F3CA0176E1E4200183063 /* blackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButton.png; sourceTree = "<group>"; };
+		0A9F3CA1176E1E4200183063 /* blackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButton@2x.png"; sourceTree = "<group>"; };
+		0A9F3CA2176E1E4200183063 /* blackButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButtonHighlight.png; sourceTree = "<group>"; };
+		0A9F3CA3176E1E4200183063 /* blackButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		0A9F3CA9176E1E6500183063 /* greyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButton.png; sourceTree = "<group>"; };
+		0A9F3CAA176E1E6500183063 /* greyButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButton@2x.png"; sourceTree = "<group>"; };
+		0A9F3CAB176E1E6500183063 /* greyButton@2xpng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "greyButton@2xpng"; sourceTree = "<group>"; };
+		0A9F3CAC176E1E6500183063 /* greyButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButtonHighlight.png; sourceTree = "<group>"; };
+		0A9F3CAD176E1E6500183063 /* greyButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		0A9F3CB3176E1E7900183063 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		0A9F3CB4176E1E7900183063 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		0A9F3CB7176E1EB100183063 /* twilio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twilio.png; sourceTree = "<group>"; };
+		0A9F3CB8176E1EB100183063 /* twilio@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twilio@2x.png"; sourceTree = "<group>"; };
+		0A9F3CBB176E1EBE00183063 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		0A9F3CBC176E1EBE00183063 /* whiteButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteButton@2x.png"; sourceTree = "<group>"; };
+		0A9F3CBD176E1EBE00183063 /* whiteButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButtonHighlight.png; sourceTree = "<group>"; };
+		0A9F3CBE176E1EBE00183063 /* whiteButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		0A9F3CC4176E250D00183063 /* QSVolunteerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSVolunteerService.h; sourceTree = "<group>"; };
+		0A9F3CC5176E250D00183063 /* QSVolunteerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSVolunteerService.m; sourceTree = "<group>"; };
+		0A9F3CC9176E444900183063 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		0A9F3CCA176E444900183063 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		0A9F3CCB176E444900183063 /* libTwilioClient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTwilioClient.a; sourceTree = "<group>"; };
+		0A9F3CCF176E446000183063 /* TCConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConnection.h; sourceTree = "<group>"; };
+		0A9F3CD0176E446000183063 /* TCConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConnectionDelegate.h; sourceTree = "<group>"; };
+		0A9F3CD1176E446000183063 /* TCDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDevice.h; sourceTree = "<group>"; };
+		0A9F3CD2176E446000183063 /* TCDeviceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDeviceDelegate.h; sourceTree = "<group>"; };
+		0A9F3CD3176E446000183063 /* TCPresenceEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPresenceEvent.h; sourceTree = "<group>"; };
+		0A9F3CD4176E446000183063 /* TwilioClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwilioClient.h; sourceTree = "<group>"; };
+		0A9F3CD5176E5D0400183063 /* QSCallVolunteerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSCallVolunteerViewController.h; sourceTree = "<group>"; };
+		0A9F3CD6176E5D0400183063 /* QSCallVolunteerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSCallVolunteerViewController.m; sourceTree = "<group>"; };
+		0A9F3CD7176E5D0500183063 /* QSCallVolunteerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QSCallVolunteerViewController.xib; sourceTree = "<group>"; };
+		0A9F3CDA176E5F7000183063 /* orangeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeButton.png; sourceTree = "<group>"; };
+		0A9F3CDB176E5F7000183063 /* orangeButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orangeButton@2x.png"; sourceTree = "<group>"; };
+		0A9F3CDC176E5F7000183063 /* orangeButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeButtonHighlight.png; sourceTree = "<group>"; };
+		0A9F3CDD176E5F7000183063 /* orangeButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orangeButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		0A9F3CE2176E6F5F00183063 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0A9F3CE4176E6F6700183063 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0A9F3CE6176E6F7400183063 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0A9F3CE8176E6F7C00183063 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03D1001716EC579A0005A1A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9F3CE9176E6F7C00183063 /* SystemConfiguration.framework in Frameworks */,
+				0A9F3CE7176E6F7400183063 /* CFNetwork.framework in Frameworks */,
+				0A9F3CE5176E6F6700183063 /* AVFoundation.framework in Frameworks */,
+				0A9F3CE3176E6F5F00183063 /* AudioToolbox.framework in Frameworks */,
+				03D1001E16EC579A0005A1A9 /* UIKit.framework in Frameworks */,
+				03D1002016EC579A0005A1A9 /* Foundation.framework in Frameworks */,
+				03D1002216EC579A0005A1A9 /* CoreGraphics.framework in Frameworks */,
+				03D1006016EC63620005A1A9 /* WindowsAzureMobileServices.framework in Frameworks */,
+				0A9F3CCC176E444900183063 /* libcrypto.a in Frameworks */,
+				0A9F3CCD176E444900183063 /* libssl.a in Frameworks */,
+				0A9F3CCE176E444900183063 /* libTwilioClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D1001116EC579A0005A1A9 = {
+			isa = PBXGroup;
+			children = (
+				03D1002C16EC579A0005A1A9 /* QSAppDelegate.h */,
+				03D1002D16EC579A0005A1A9 /* QSAppDelegate.m */,
+				03D1002316EC579A0005A1A9 /* Classes */,
+				03D1001C16EC579A0005A1A9 /* Frameworks */,
+				0A9F3CA8176E1E4B00183063 /* Images */,
+				03D1001B16EC579A0005A1A9 /* Products */,
+				0A9F3CC3176E1EC400183063 /* Sounds */,
+				03D1002416EC579A0005A1A9 /* Supporting Files */,
+			);
+			sourceTree = "<group>";
+		};
+		03D1001B16EC579A0005A1A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03D1001A16EC579A0005A1A9 /* volunteers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03D1001C16EC579A0005A1A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A9F3CE8176E6F7C00183063 /* SystemConfiguration.framework */,
+				0A9F3CE6176E6F7400183063 /* CFNetwork.framework */,
+				0A9F3CE4176E6F6700183063 /* AVFoundation.framework */,
+				0A9F3CE2176E6F5F00183063 /* AudioToolbox.framework */,
+				0A9F3CC9176E444900183063 /* libcrypto.a */,
+				0A9F3CCA176E444900183063 /* libssl.a */,
+				0A9F3CCB176E444900183063 /* libTwilioClient.a */,
+				03D1005F16EC63620005A1A9 /* WindowsAzureMobileServices.framework */,
+				03D1001D16EC579A0005A1A9 /* UIKit.framework */,
+				03D1001F16EC579A0005A1A9 /* Foundation.framework */,
+				03D1002116EC579A0005A1A9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03D1002316EC579A0005A1A9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A9F3CC8176E256F00183063 /* Data Stores */,
+				0A9F3CC7176E256400183063 /* View Controllers */,
+				0A9F3CB6176E1E8000183063 /* Vendor */,
+			);
+			name = Classes;
+			path = volunteers;
+			sourceTree = "<group>";
+		};
+		03D1002416EC579A0005A1A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03D1006116ED41D20005A1A9 /* connected57.png */,
+				03D1006216ED41D20005A1A9 /* connected72.png */,
+				03D1006316ED41D20005A1A9 /* connected114.png */,
+				03D1006416ED41D20005A1A9 /* connected144.png */,
+				03D1002516EC579A0005A1A9 /* volunteers-Info.plist */,
+				03D1002616EC579A0005A1A9 /* InfoPlist.strings */,
+				03D1002916EC579A0005A1A9 /* main.m */,
+				03D1002B16EC579A0005A1A9 /* volunteers-Prefix.pch */,
+				03D1002F16EC579A0005A1A9 /* Default.png */,
+				03D1003116EC579A0005A1A9 /* Default@2x.png */,
+				03D1003316EC579A0005A1A9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			path = volunteers;
+			sourceTree = "<group>";
+		};
+		0A9F3CA8176E1E4B00183063 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0A9F3CA0176E1E4200183063 /* blackButton.png */,
+				0A9F3CA1176E1E4200183063 /* blackButton@2x.png */,
+				0A9F3CA2176E1E4200183063 /* blackButtonHighlight.png */,
+				0A9F3CA3176E1E4200183063 /* blackButtonHighlight@2x.png */,
+				0A9F3CA9176E1E6500183063 /* greyButton.png */,
+				0A9F3CAA176E1E6500183063 /* greyButton@2x.png */,
+				0A9F3CAB176E1E6500183063 /* greyButton@2xpng */,
+				0A9F3CAC176E1E6500183063 /* greyButtonHighlight.png */,
+				0A9F3CAD176E1E6500183063 /* greyButtonHighlight@2x.png */,
+				0A9F3CDA176E5F7000183063 /* orangeButton.png */,
+				0A9F3CDB176E5F7000183063 /* orangeButton@2x.png */,
+				0A9F3CDC176E5F7000183063 /* orangeButtonHighlight.png */,
+				0A9F3CDD176E5F7000183063 /* orangeButtonHighlight@2x.png */,
+				0A9F3CB7176E1EB100183063 /* twilio.png */,
+				0A9F3CB8176E1EB100183063 /* twilio@2x.png */,
+				0A9F3CBB176E1EBE00183063 /* whiteButton.png */,
+				0A9F3CBC176E1EBE00183063 /* whiteButton@2x.png */,
+				0A9F3CBD176E1EBE00183063 /* whiteButtonHighlight.png */,
+				0A9F3CBE176E1EBE00183063 /* whiteButtonHighlight@2x.png */,
+			);
+			name = Images;
+			path = volunteers;
+			sourceTree = "<group>";
+		};
+		0A9F3CB6176E1E8000183063 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				0A9F3CCF176E446000183063 /* TCConnection.h */,
+				0A9F3CD0176E446000183063 /* TCConnectionDelegate.h */,
+				0A9F3CD1176E446000183063 /* TCDevice.h */,
+				0A9F3CD2176E446000183063 /* TCDeviceDelegate.h */,
+				0A9F3CD3176E446000183063 /* TCPresenceEvent.h */,
+				0A9F3CD4176E446000183063 /* TwilioClient.h */,
+				0A9F3CB3176E1E7900183063 /* MBProgressHUD.h */,
+				0A9F3CB4176E1E7900183063 /* MBProgressHUD.m */,
+				0A9F3C9D176E1DE900183063 /* TWBUIFactory.h */,
+				0A9F3C9E176E1DE900183063 /* TWBUIFactory.m */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		0A9F3CC3176E1EC400183063 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sounds;
+			path = volunteers;
+			sourceTree = "<group>";
+		};
+		0A9F3CC7176E256400183063 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A9F3CD5176E5D0400183063 /* QSCallVolunteerViewController.h */,
+				0A9F3CD6176E5D0400183063 /* QSCallVolunteerViewController.m */,
+				0A9F3CD7176E5D0500183063 /* QSCallVolunteerViewController.xib */,
+				0A9F3C96176E16BE00183063 /* QSVolunteerListViewController.h */,
+				0A9F3C97176E16BE00183063 /* QSVolunteerListViewController.m */,
+				0A9F3C98176E16BE00183063 /* QSVolunteerListViewController.xib */,
+				0A9F3C9B176E183D00183063 /* QSVolunteerListViewController~iphone.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0A9F3CC8176E256F00183063 /* Data Stores */ = {
+			isa = PBXGroup;
+			children = (
+				0A9F3CC4176E250D00183063 /* QSVolunteerService.h */,
+				0A9F3CC5176E250D00183063 /* QSVolunteerService.m */,
+			);
+			name = "Data Stores";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03D1001916EC579A0005A1A9 /* volunteers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D1004016EC579A0005A1A9 /* Build configuration list for PBXNativeTarget "volunteers" */;
+			buildPhases = (
+				03D1001616EC579A0005A1A9 /* Sources */,
+				03D1001716EC579A0005A1A9 /* Frameworks */,
+				03D1001816EC579A0005A1A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = volunteers;
+			productName = volunteers;
+			productReference = 03D1001A16EC579A0005A1A9 /* volunteers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03D1001216EC579A0005A1A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = MobileServices;
+			};
+			buildConfigurationList = 03D1001516EC579A0005A1A9 /* Build configuration list for PBXProject "volunteers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03D1001116EC579A0005A1A9;
+			productRefGroup = 03D1001B16EC579A0005A1A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03D1001916EC579A0005A1A9 /* volunteers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03D1001816EC579A0005A1A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D1002816EC579A0005A1A9 /* InfoPlist.strings in Resources */,
+				03D1003016EC579A0005A1A9 /* Default.png in Resources */,
+				03D1003216EC579A0005A1A9 /* Default@2x.png in Resources */,
+				03D1003416EC579A0005A1A9 /* Default-568h@2x.png in Resources */,
+				03D1006516ED41D20005A1A9 /* connected57.png in Resources */,
+				03D1006616ED41D20005A1A9 /* connected72.png in Resources */,
+				03D1006716ED41D20005A1A9 /* connected114.png in Resources */,
+				03D1006816ED41D20005A1A9 /* connected144.png in Resources */,
+				0A9F3C9A176E16BE00183063 /* QSVolunteerListViewController.xib in Resources */,
+				0A9F3C9C176E183D00183063 /* QSVolunteerListViewController~iphone.xib in Resources */,
+				0A9F3CA4176E1E4300183063 /* blackButton.png in Resources */,
+				0A9F3CA5176E1E4300183063 /* blackButton@2x.png in Resources */,
+				0A9F3CA6176E1E4300183063 /* blackButtonHighlight.png in Resources */,
+				0A9F3CA7176E1E4300183063 /* blackButtonHighlight@2x.png in Resources */,
+				0A9F3CAE176E1E6500183063 /* greyButton.png in Resources */,
+				0A9F3CAF176E1E6500183063 /* greyButton@2x.png in Resources */,
+				0A9F3CB0176E1E6500183063 /* greyButton@2xpng in Resources */,
+				0A9F3CB1176E1E6500183063 /* greyButtonHighlight.png in Resources */,
+				0A9F3CB2176E1E6500183063 /* greyButtonHighlight@2x.png in Resources */,
+				0A9F3CB9176E1EB100183063 /* twilio.png in Resources */,
+				0A9F3CBA176E1EB100183063 /* twilio@2x.png in Resources */,
+				0A9F3CBF176E1EBE00183063 /* whiteButton.png in Resources */,
+				0A9F3CC0176E1EBE00183063 /* whiteButton@2x.png in Resources */,
+				0A9F3CC1176E1EBE00183063 /* whiteButtonHighlight.png in Resources */,
+				0A9F3CC2176E1EBE00183063 /* whiteButtonHighlight@2x.png in Resources */,
+				0A9F3CD9176E5D0500183063 /* QSCallVolunteerViewController.xib in Resources */,
+				0A9F3CDE176E5F7000183063 /* orangeButton.png in Resources */,
+				0A9F3CDF176E5F7000183063 /* orangeButton@2x.png in Resources */,
+				0A9F3CE0176E5F7000183063 /* orangeButtonHighlight.png in Resources */,
+				0A9F3CE1176E5F7000183063 /* orangeButtonHighlight@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03D1001616EC579A0005A1A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D1002A16EC579A0005A1A9 /* main.m in Sources */,
+				03D1002E16EC579A0005A1A9 /* QSAppDelegate.m in Sources */,
+				0A9F3C99176E16BE00183063 /* QSVolunteerListViewController.m in Sources */,
+				0A9F3C9F176E1DE900183063 /* TWBUIFactory.m in Sources */,
+				0A9F3CB5176E1E7900183063 /* MBProgressHUD.m in Sources */,
+				0A9F3CC6176E250D00183063 /* QSVolunteerService.m in Sources */,
+				0A9F3CD8176E5D0500183063 /* QSCallVolunteerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03D1002616EC579A0005A1A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D1002716EC579A0005A1A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03D1003E16EC579A0005A1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03D1003F16EC579A0005A1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03D1004116EC579A0005A1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "volunteers/volunteers-Prefix.pch";
+				INFOPLIST_FILE = "volunteers/volunteers-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03D1004216EC579A0005A1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "volunteers/volunteers-Prefix.pch";
+				INFOPLIST_FILE = "volunteers/volunteers-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03D1001516EC579A0005A1A9 /* Build configuration list for PBXProject "volunteers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D1003E16EC579A0005A1A9 /* Debug */,
+				03D1003F16EC579A0005A1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D1004016EC579A0005A1A9 /* Build configuration list for PBXNativeTarget "volunteers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D1004116EC579A0005A1A9 /* Debug */,
+				03D1004216EC579A0005A1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03D1001216EC579A0005A1A9 /* Project object */;
+}
